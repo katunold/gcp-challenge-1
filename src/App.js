@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import parte from './parte.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={parte} className="App-logo" alt="logo" />
+        {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          🎶 🎵 Parte after Parte 😂🤣
         </p>
         <a
           className="App-link"
